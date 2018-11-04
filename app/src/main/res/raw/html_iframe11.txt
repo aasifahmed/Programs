@@ -1,0 +1,9 @@
+<html>
+<body>
+
+<iframe src="https://www.google.com" height="500" width="500">
+  <p>iframe is used to display other sites, maps as embedded.</p>
+</iframe>
+
+</body>
+</html>

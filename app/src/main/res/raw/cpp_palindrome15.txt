@@ -1,0 +1,25 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	int i,j,num,temp=0;
+	clrscr();
+	cout<<"Enter any number: ";
+	cin>>num;
+	j=num;
+	while(num>0)
+		{
+			i=num%10;
+			num=num/10;
+			temp=temp*10+i;
+		}
+	if(temp==j)
+		{
+			cout<<"Palindrome";
+		}
+		else
+		{
+			cout<<"Not Palindrome";
+		}
+	getch();
+}

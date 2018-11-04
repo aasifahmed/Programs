@@ -1,0 +1,22 @@
+echo "Enter the string?"
+read str
+len=${#str}
+k=$len-1
+i=0
+flag=1
+while[ $i -le $(len/2)]
+do
+s1=${str:$i:1}
+s2=${str:$k-i:1}
+if[ $s1 != $s2 ]
+then
+flag=0
+fi
+let i++
+done
+if[ $flag -eq 1 ]
+then
+echo "Palindrome"
+else
+echo "Not Palindrome"
+fi

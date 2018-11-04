@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction()">Click me</button>
+<p id="demo"></p>
+<p ondblclick="dblFunc()">Double-click this paragraph to trigger a function.</p>
+<p id="demo2"></p>
+<p id="coltext" onmousedown="mouseDown()" onmouseup="mouseUp()">
+Click the text to change the color of the text.</p>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="smiley.gif" alt="Smiley" width="32" height="32">
+
+<p onmouseover="bigText(this)" onmouseout="normalText(this)" style="width: 500;height: 200">The function bigText() is triggered when the user moves the mouse pointer over the text.</p>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+function dblFunc() {
+    document.getElementById("demo2").innerHTML = "Hello World 2";
+}
+function mouseDown() {
+    document.getElementById("coltext").style.color = "red";
+}
+
+function mouseUp() {
+    document.getElementById("coltext").style.color = "green";
+}
+function bigText(x) {
+    x.style.height = "96px";
+    x.style.width = "96px";
+}
+
+function normalText(x) {
+    x.style.height = "200px";
+    x.style.width = "500px";
+}
+</script>
+
+</body>
+</html>

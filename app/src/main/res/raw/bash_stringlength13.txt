@@ -1,0 +1,5 @@
+echo "Enter the string?"
+read str
+len=${#str}
+echo "$len"
+

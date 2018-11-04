@@ -1,0 +1,14 @@
+<html>
+	<body>
+		<?php
+		$i=0;
+		$no=50;
+		while($i<10)
+		{
+			$no--;
+			$i++;
+		}
+		echo "Loop stopped at $i and $no";
+		?>
+	</body>
+</html>

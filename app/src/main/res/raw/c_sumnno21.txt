@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+     int no, sum = 0, count, i;
+     printf("Enter how many numbers you want to add?\n");
+     scanf("%d", &no);
+     printf("Enter %d numbers one by one?\n",no);
+     for (count = 1; count <= no; count++)
+     {
+         scanf("%d",&i);
+         sum = sum + i;
+     }
+     printf("Sum of given numbers = %d\n",sum);
+     return 0;
+}

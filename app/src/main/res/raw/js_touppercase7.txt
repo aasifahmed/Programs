@@ -1,0 +1,16 @@
+<html>
+<body>
+	<script type="text/javascript">
+		function upper()
+		{
+			var upper = document.newform.string.value.toUpperCase();
+			document.newform.string.value = upper;
+		}
+	</script>
+	<form name="newform">
+		Enter String:<br>
+		<input type="text" name="string">
+		<input type="button" value="Upper" onclick="upper()">
+	</form>
+</body>
+</html>

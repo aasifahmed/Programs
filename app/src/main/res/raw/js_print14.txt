@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>JavaScript program to print the page:</title>
+	</head>
+	<body>
+		<button onclick="print_page()">Print</button>
+		<script language="javascript">
+			function print_page() {
+				window.print();
+			}
+		</script>
+	</body>
+</html>

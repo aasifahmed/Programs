@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>CSS Font Properties:</title>
+		<style type="text/css">
+			p.one { font-family: 'lucida console'; font-weight: bold;font-size: 20px; color: purple; }
+			h1.two { font-family: 'arial'; color: navy; font-style: italic; }
+			h4.three { font: small-caps italic bold 30px 'Times New Roman'; }
+		</style>
+	</head>
+	<body>
+		<p class="one">Artificial Intelligence</p>
+		<h1 class="two">Machine Learning</h1>
+		<h4 class="three">Virtual Reality</h4>
+	</body>
+</html>

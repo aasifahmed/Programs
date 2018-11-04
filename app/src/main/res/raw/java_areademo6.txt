@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+class AreaDemo
+{
+	public static void main(String[] args)
+	{
+		int radius;
+		double area, peri;
+		double pi = 3.14;
+		Scanner op = new Scanner(System.in);
+		System.out.println("Enter the radius?");
+		radius = op.nextInt();
+		area = pi*radius*radius;
+		peri = 2*pi*radius;
+		System.out.println("area of circle= "+area);
+		System.out.println("Perimeter of cirlce= "+peri);
+	}
+}

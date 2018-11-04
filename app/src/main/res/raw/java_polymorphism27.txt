@@ -1,0 +1,23 @@
+class Bank{  
+float getRateOfInterest(){return 0;}  
+}  
+class Citi extends Bank{  
+float getRateOfInterest(){return 8.4f;}  
+}  
+class BOA extends Bank{  
+float getRateOfInterest(){return 7.3f;}  
+}  
+class HSBC extends Bank{  
+float getRateOfInterest(){return 9.7f;}  
+}  
+class PolymorphismDemo{  
+public static void main(String args[]){  
+Bank b;  
+b=new Citi();  
+System.out.println("Citi Rate of Interest: "+b.getRateOfInterest());  
+b=new BOA();  
+System.out.println("BOA Rate of Interest: "+b.getRateOfInterest());  
+b=new HSBC();  
+System.out.println("HSBC Rate of Interest: "+b.getRateOfInterest());  
+}  
+}  

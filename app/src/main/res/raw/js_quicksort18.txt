@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Quick Sort:</title>
+	</head>
+	<body>
+		<script language="javascript">
+			function quick_sort(arr) {
+				if(arr.length <= 1)
+				{
+					return arr;
+				} else {
+					var lt=[];
+					var rt=[];
+					var arr2=[];
+					var asf=arr.pop();
+					var length=arr.length;
+					for (var i = 0; i < length; i++) {
+						if(arr[i] <= asf) {
+							lt.push(arr[i]);
+						} else {
+							rt.push(arr[i]);
+						}
+					}
+					return arr2.concat(quick_sort(lt), asf,quick_sort(rt));
+				}
+	}
+	var input_arr = [9,32,0,-3,13,-5,8,3];
+	document.write("Array before quick sort: " + input_arr);
+	var sorted_arr = quick_sort(input_arr);
+	document.write("Array after quick sort: "+ sorted_arr);
+		</script>
+	</body>
+</html>
+
+

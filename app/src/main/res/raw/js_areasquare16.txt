@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Area of the square:</title>
+	</head>
+	<body>
+		<script language="javascript">
+		var s;
+		var a;
+		s=prompt("Enter the sides of the square? ");
+		a=s*s;
+		document.write("Area of square is ",+a);
+		</script>
+	</body>
+</html>

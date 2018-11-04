@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>This is a <sup>superscript text!</sup></p>
+<p>This is a <sub>subscript text!</sub></p>
+<p>This text is <del>striked</del> by a line !</p>
+<code>This text is formatted with the code tag.</code>
+</body>
+</html>

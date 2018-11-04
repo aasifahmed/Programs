@@ -1,0 +1,21 @@
+echo "Enter the principle amount?"
+read p
+echo "Enter the rate of interest?"
+read r
+echo "Enter the number of years?"
+read n
+si=`expr $p \* $r \* $n`
+si=`expr $si / 100`
+echo "The simple interest is Rs $si"
+co=`expr 100 + $r`
+co=`expr $co / 100`
+i=2
+ci=1
+while [ $i -le $n ]
+do
+ci=`expr $ci \* $co`
+i=`expr $i + 1`
+done
+ci=`expr $ci \* $p`
+echo "The compound interest is Rs $ci"
+

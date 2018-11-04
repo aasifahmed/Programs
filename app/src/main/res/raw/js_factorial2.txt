@@ -1,0 +1,21 @@
+<html>
+<body>
+	<h1>
+	<script type="text/javascript">
+		var num=5
+		function sum(num)
+		{
+			if(num>1)
+			{
+				document.write("Fact="+num*fact(num-1));
+			}
+			else
+			{
+				document.write("fact="+num);
+			}
+		}
+	</script>
+	</h1>
+</body>
+</html>
+

@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int fs1 = 0, fs2 = 1, fs3 = 1;
+    cout << "The Fibonacci Series is: " << endl << fs1 << " " << fs2 << " ";
+    while (fs1 + fs2 < 1000)
+    {
+        fs3 = fs1 + fs2;
+        fs1 = fs2;
+        fs2 = fs3;
+        cout << fs3 << " ";
+    }
+    cout << endl;
+    return 0;
+}

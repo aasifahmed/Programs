@@ -1,0 +1,16 @@
+<html>
+<body>
+	<h1>
+	<script type="text/javascript">
+		function sum(a,b)
+		{
+			c=a+b;
+			return c;
+		}
+		d=sum(12,14);
+		document.write("The resutl is "+d);
+	</script>
+	</h1>
+</body>
+</html>
+

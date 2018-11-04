@@ -1,0 +1,3 @@
+echo "please enter your name:"
+read name
+echo "Welcome to Shell programming $name"

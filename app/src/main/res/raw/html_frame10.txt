@@ -1,0 +1,44 @@
+--------------index.html---------------
+<html>
+
+   <head>
+      <title>HTML Target Frames</title>
+   </head>
+	
+   <frameset cols = "200, *">
+      <frame src = "/html/menu.htm" name = "menu_page" />
+      <frame src = "/html/main.htm" name = "main_page" />
+      
+      <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes>
+   </frameset>
+	
+</html>
+---------------menu.html-------------------
+<html>
+
+   <body bgcolor = "#4a7d49">
+      <a href = "http://www.google.com" target = "main_page">Google</a>
+      <br />
+      <br />
+      
+      <a href = "http://www.microsoft.com" target = "main_page">Microsoft</a>
+      <br />
+      <br />
+      
+      <a href = "http://news.bbc.co.uk" target = "main_page">BBC News</a>
+   </body>
+   
+</html>
+--------------------main.html----------------------
+<html>
+
+   <body bgcolor = "#b5dcb3">
+      <h3>This is main page and content from any link will be displayed here.</h3>
+      <p>So now click any link and see the result.</p>
+   </body>
+   
+</html>
+
+

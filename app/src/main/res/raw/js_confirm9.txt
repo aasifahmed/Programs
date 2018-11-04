@@ -1,0 +1,18 @@
+<html>
+<body>
+	<script type="text/javascript">
+		function show_confirm()
+		{
+			var i=confirm("press a button!");
+			if(i==true)
+			{
+				document.write("You pressed ok");
+			} else {
+				document.write("You pressed cancel");
+			}
+		}
+	</script>
+	<input type="button" value="Confirm box" onclick="show_confirm()">
+</body>
+</html>
+

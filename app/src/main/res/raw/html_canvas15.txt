@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<canvas id="canvas">Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+var i = document.getElementById("canvas");
+var asf = i.getContext("2d");
+asf.fillStyle = "#FF0000";
+asf.fillRect(0, 0, 250, 100);
+
+</script>
+
+<p><strong>Note:</strong> The canvas tag is not supported in Internet 
+Explorer 8 and earlier versions.</p>
+
+</body>
+</html>

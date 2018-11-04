@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int num = 3;
+	int i=1;
+	clrscr();
+	while(i<=10)
+	{
+		printf("%d * %d = %d\n", num, i, num*i);
+		i++;
+	}
+	getch();
+}

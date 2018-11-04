@@ -1,0 +1,11 @@
+#include<stdio.h>
+ int main()
+{
+int i=10, j=20, k;
+printf("Before swap i=%d j=%d",i,j);
+k=i;
+i=j;
+j=k;
+printf("\nAfter swap i=%d j=%d",i,j);
+return 0;
+}

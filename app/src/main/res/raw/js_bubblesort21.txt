@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Bubble Sort:</title>
+	</head>
+	<body>
+		<script language="javascript">
+			function swap(arr,i,j) {
+						var tmp=arr[i];
+						arr[i]=arr[j];
+						arr[j]=tmp;
+			}
+			function bubble_sort(arr) {
+				var l = arr.length,a,b,c;
+				for(a=0;a<l;a++) {
+					for(b=0,c=l-a;b<c;b++) {
+						if(arr[b] > arr[b+1]) {
+							swap(arr,b,b+1);
+						}
+					}
+				}
+			return arr;
+	}
+	var input_arr = [9,32,0,-3,13,-5,8,3];
+	document.write("Array before Bubble sort: " + input_arr);
+	var sorted_arr = bubble_sort(input_arr);
+	document.write("Array after Bubble sort: "+ sorted_arr);
+		</script>
+	</body>
+</html>
+
+

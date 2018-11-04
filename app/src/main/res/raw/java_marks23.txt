@@ -1,0 +1,81 @@
+class Marks{
+
+      public static void main(String args[]){
+
+          int marks = Integer.parseInt(args[0]);
+
+         switch(marks/100){
+
+            case 100:
+
+                     System.out.println("Outstanding");
+
+                     break;
+
+            case 90:
+
+                     System.out.println("Brilliant");
+
+                     break;
+
+            case 80:
+
+                     System.out.println("Excellent");
+
+                     break;
+
+            case 70:
+
+                     System.out.println("Very Good");
+
+                     break;
+
+            case 60:
+
+                     System.out.println("Good");
+
+                     break;
+
+            case 50:
+
+                     System.out.println("Work Hard");
+
+                     break;
+
+            case 40:
+
+                     System.out.println("Poor");
+
+                     break;
+
+            case 30:
+                     System.out.println("Poor");
+
+                     break;
+
+            case 20:
+                     System.out.println("Poor");
+
+                     break;
+
+            case 10:
+                     System.out.println("Poor");
+
+                     break;
+
+            case 0:
+
+                     System.out.println("Very Poor");
+
+                     break;
+
+            default:
+
+                     System.out.println("Invalid value Entered");
+
+      }
+
+ }
+
+}
+

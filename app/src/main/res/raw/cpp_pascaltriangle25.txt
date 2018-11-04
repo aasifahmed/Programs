@@ -1,0 +1,33 @@
+#include<iostream.h>
+#include<conio.h>
+long fact(int);
+void main()
+{
+	clrscr();
+	int i, j, c;
+	cout<<"Enter number of rows to display?";
+	cin>>j;
+	for(i=0; i<j; i++)
+	{
+		for(c=0; c<=(j-i-2); c++)
+		{
+			cout<<" ";
+		}
+		for(c=0; c<=i; c++)
+		{
+			cout<<fact(i)/(fact(c)*fact(i-c));
+		}
+		cout<<"\n";
+	 }
+	 getch();
+}
+long fact(int j)
+{
+	int c;
+	long res=1;
+	for(c=1; c<=j; c++)
+	{
+		res = res*c;
+	}
+	return (res);
+}

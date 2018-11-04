@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>CSS Text Properties:</title>
+</head>
+<body>
+	<p style="text-align:right;">CSS TEXT align right</p>
+	<p style="text-align:center;">CSS TEXT align center</p>
+	<p style="text-align:left;">CSS TEXT align left</p>
+	<p style="text-align:justify;">Hello reader, this ia example of CSS text-align justify type. Both side left
+	and right are equal. Its like newspaper or book type. Hello reader, this ia example of CSS text-align justify type. 
+	Both side left and right are equal. Its like newspaper or book type. Hello reader, this ia example of CSS text-align 
+	justify type. Both side left and right are equal. Its like newspaper or book type.</p>
+	<p style="text-indent:35px;">This paragraph is example of CSS text-indent property and value set 35px (pixel).
+	So it means paragraph first line leftside leave blank space end of blank space start a first line paragraph text.</p>
+	<p style="text-decoration:underline;">Text is underline decorate</p>
+	<p style="text-decoration:overline;">Text is overline decorate</p>
+	<p style="text-decoration:blink;">Text is blink decorate</p>
+	<p style="text-decoration:line-through;">Text is line delete decorate</p>
+	<p style="text-decoration:none;">Text is Nothing any decorate value</p>
+	<p style="text-transform:capitalize;">this line transform capital</p>
+	<p style="text-transform:lowercase;">this line transform Lowercase</p>
+	<p style="text-transform:uppercase;">this line transform Uppercase</p>
+	<p style="letter-spacing:5px">This text is letter spacing</p>
+	<p style="word-spacing:25px">This text is Word Spacing</p>
+	<p style="text-shadow:4px 4px 8px orange;">This text is Text Shadow Effect</p>
+</body>
+</html>
+
+

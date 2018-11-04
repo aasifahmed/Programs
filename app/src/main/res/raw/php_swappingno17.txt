@@ -1,0 +1,9 @@
+<?php  
+$i = 45;
+$j = 78;
+$k = $i;  
+$i = $j;  
+$j = $k;  
+echo "After swapping:<br><br>";  
+echo "i =".$i."  j=".$j;  
+?>  

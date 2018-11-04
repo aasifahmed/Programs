@@ -1,0 +1,34 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+    char opr;
+    float no1, no2;
+    cout << "Enter either + or - or * or / operator: ";
+    cin >> opr;
+    cout << "Enter two operands: ";
+    cin >> no1 >> no2;
+    switch(opr)
+    {
+        case '+':
+            cout << no1+no2;
+            break;
+
+        case '-':
+            cout << no1-no2;
+            break;
+
+        case '*':
+            cout << no1*no2;
+            break;
+
+        case '/':
+            cout << no1/no2;
+            break;
+
+        default:
+            cout << "Error! Given operator is not correct";
+            break;
+    }
+    return 0;
+}

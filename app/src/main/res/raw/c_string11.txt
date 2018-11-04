@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char str[50];
+	clrscr();
+
+	printf("Enter a sentence: ");
+	gets(str);
+	printf("\nYou entered:\n");
+	printf("%s", str);
+	getch();
+}

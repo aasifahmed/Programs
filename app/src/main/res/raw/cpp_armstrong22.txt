@@ -1,0 +1,36 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	int no1, no2, i, n, asf, temp, count=0;
+	cout<<"Enter beginning Number : ";
+	cin>>no1;
+	cout<<"Enter Ending Number : ";
+	cin>>no2;
+	for(i=no1+1; i<no2; i++)
+	{
+		temp=i;
+		n=0;
+		while(temp!=0)
+		{
+			asf=temp%10;
+			n = n + asf*asf*asf;
+			temp=temp/10;
+		}
+		if(i==n)
+		{
+			if(count==0)
+			{
+				cout<<"Armstrong numbers between the given numbers are : \n";
+			}
+			cout<<i<<" ";
+			count++;
+		}
+	}
+	if(count==0)
+	{
+		cout<<"Armstrong number not found between the given numbers";
+	}
+	getch();
+}

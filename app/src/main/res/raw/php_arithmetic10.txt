@@ -1,0 +1,23 @@
+<html>
+	<body>
+		<?php
+		$x=8;
+		$y=4;
+		echo($x+$y);
+		echo($x-$y);
+		echo($x*$y);
+		echo($x/$y);
+		echo($x%$y);
+		$a=10;
+		echo ++$a;
+		$b=20;
+		echo $b++;
+		$c=30;
+		echo --$c;
+		$d=40;
+		echo $d--;
+		?>
+	</body>
+</html>
+
+

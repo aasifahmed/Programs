@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a;
+	clrscr();
+	i=10;
+	printf("The value of i is %d", i);
+	getch();
+}

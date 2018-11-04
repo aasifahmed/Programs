@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML marquee Tag</title>
+   </head>
+	
+   <body>
+      <marquee>This is basic example of marquee.</marquee>
+      <marquee width="70%" scrollamount="25">This example will take only 70% width.</marquee>
+      <marquee direction = "right">This text will scroll from left to right.</marquee>
+      <marquee direction = "up">This text will scroll from bottom to up.</marquee>
+   </body>
+	
+</html>
+
+

@@ -1,0 +1,14 @@
+import java.io.*;
+class nesting
+{
+	public static void main(String args[]){
+		int abc;
+		int abcd;
+		for (abc=0;abc<=5;abc++){
+			for (abcd=0; abcd<=abc; abcd++) {
+				System.out.println(abcd + 1);
+			}
+			System.out.println(abc);
+		}
+	}
+}

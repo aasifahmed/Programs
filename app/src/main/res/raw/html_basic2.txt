@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Basic HTML tags:</title>
+	</head>
+	<body background="image.jpg">
+		<p>NASA</p>
+		<b>Google</b>
+		<i>Microsoft</i>
+		<u>Apple</u>
+		<center>Twitter</center>
+		<h1>Ubuntu</h1>
+		<h2>Mint</h2>
+		<h3>Fedora</h3>
+		<h4>Manjaro</h4>
+		<h5>Kali</h5>
+		<h6>Red Hat</h6>
+		<font face="Times New Roman" color="blue" size="20px">Washington Post</font>
+	</body>
+</html>
+

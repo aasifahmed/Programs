@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>Display date and time:</title>
+	</head>
+	<body>
+		<script language="javascript">
+		var d = new Date();
+		document.write("Date and time is ",d);
+		</script>
+	</body>
+</html>

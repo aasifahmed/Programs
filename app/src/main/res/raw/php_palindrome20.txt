@@ -1,0 +1,19 @@
+<?php  
+function palindrome($i){  
+$no = $i;  
+$amt = 0;  
+while(floor($no)) {  
+$asf = $no % 10;  
+$amt = $amt * 10 + $asf;  
+$no = $no/10;  
+}  
+return $amt;  
+}  
+$val = 74547;  
+$num = palindrome($val);  
+if($val==$num){  
+echo "$val is a Palindrome number";  
+} else {  
+echo "$val is not a Palindrome";  
+}  
+?> 

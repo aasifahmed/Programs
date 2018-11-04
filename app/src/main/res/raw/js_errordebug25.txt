@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>View answer on developer console!</h2>
+
+<script>
+a = 5;
+b = 6;
+c = a + b;
+console.log(c);
+try {
+    addalert("Welcome user!");
+}
+catch(err) {
+    document.getElementById("demo").innerHTML = err.message;
+}
+</script>
+
+</body>
+</html> 

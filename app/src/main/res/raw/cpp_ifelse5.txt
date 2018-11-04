@@ -1,0 +1,18 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	int x, y ;
+	cout<<"Enter two numbers: ";
+	cin>>x>>y;
+	if(x>y)
+	{
+		cout<<x<<" is big";
+	}
+	else
+	{
+		cout<<y<<" is big";
+	}
+	getch();
+}

@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Insertion Sort:</title>
+	</head>
+	<body>
+		<script language="javascript">
+			function insert_sort(arr) {
+				for (var i = 1; i < arr.length; i++) {
+					if(arr[i] < arr[0]) {
+						arr.unshift(arr.splice(i,1)[0]);
+					} else if(arr[i] > arr[i-1]) {
+						continue;
+					} else {
+						for(var j=1;j<i;j++) {
+							if(arr[i] > arr[j-1] && arr[i] < arr[j]) {
+								arr.splice(j,0,arr.splice(i,1)[0]);
+							}
+						}
+					}
+				}
+				return arr;
+	}
+	var input_arr = [9,32,0,-3,13,-5,8,3];
+	document.write("Array before insertion sort: " + input_arr);
+	var sorted_arr = insert_sort(input_arr);
+	document.write("Array after insertion sort: "+ sorted_arr);
+		</script>
+	</body>
+</html>
+
+

@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <conio.h>
+#include <dos.h>
+int main()
+{
+	//It works in Turbo C only because it supports dos.h header file.
+   struct date d;
+   getdate(&d);
+   printf("Current system date is %d/%d/%d",d.da_day,d.da_mon,d.da_year);
+   getch();
+   return 0;
+}

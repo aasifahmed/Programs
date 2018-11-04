@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>PHP Function:</title>
+</head>
+	<body>
+		<?php
+		function add($num1,$num2)
+		{
+			$sum=$num1+$num2;
+			reutrn $sum;
+		}
+		$value=add(15,30);
+		echo "The result is $value";
+		?>
+	</body>
+</html>

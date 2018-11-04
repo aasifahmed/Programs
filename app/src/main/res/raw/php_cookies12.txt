@@ -1,0 +1,23 @@
+<?php
+setcookie("user", "Jon Snow");
+setcookie("color", "green");
+?>
+<html>
+<head>
+	<title>PHP Cookies:</title>
+</head>
+	<body bgcolor="blue">
+		<font face="verdana" size="+1">
+			<h2>$_COOKIE[]</h2>
+			<?php
+			if(!empty($_COOKIE['color'])) {
+			echo "<pre>";
+				print_r($_COOKIE);
+			echo "</pre>";
+			}
+			?>
+		</font>
+	</body>
+</html>
+
+

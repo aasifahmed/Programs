@@ -1,0 +1,13 @@
+echo "Enter a number?"
+read n
+echo "Enter power?"
+read p
+i=1
+pr=1
+while [ $i -le $p ]
+do
+pr=`expr $pr \* $n`
+i=`expr $i + 1`
+done
+echo "$pr"
+

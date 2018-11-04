@@ -1,0 +1,13 @@
+<html>
+<body>
+	<script type="text/javascript">
+		var arr=new Array(4);
+		arr[0]="This is ";
+		arr[1]="an array ";
+		arr[2]="created using ";
+		arr[3]="javascript.";
+		document.write("<h1>"+arr[0]+arr[1]+arr[2]+arr[3]+"</h1>");
+	</script>
+</body>
+</html>
+

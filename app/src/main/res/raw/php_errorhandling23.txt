@@ -1,0 +1,21 @@
+<?php
+	$fname = "sample.txt";
+?>
+<html>
+<head>
+	<title>Error Handling in PHP</title>
+</head>
+<body>
+<?php 
+	if(!file_exists($fname))
+	{
+		die("File doesn't exist!");
+	}
+	else 
+	{
+		$ftr = fopen($fname, "r");
+		echo "File exist!";
+	}
+?>
+</body>
+</html>

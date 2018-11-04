@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>PHP creating, renaming and deleting a directory:</title>
+</head>
+	<body>
+		<?php
+		// creating directory...
+		if(!file_exists("newdir"))
+		{
+			if(mkdir('New Folder')) {
+			echo "Directory created!";
+			}
+			else {
+			echo "Directory could not be created!";
+			}
+		} else
+		{
+			echo "Directory already exist!";
+		}
+
+		// renaming directory...
+		if(file_exists('newdir')) {
+		if(rename('New Folder', 'Photos')) {
+		echo "Directory renamed!";
+		} else
+		{
+			echo "Directory could not be renamed!";
+		}
+		} else {
+		echo "Directory does not exist!";
+		}
+
+		// deleting directory...
+		rmdir("Photos");
+		echo "Directory deleted!";
+		?>
+	</body>
+</html>
+
+

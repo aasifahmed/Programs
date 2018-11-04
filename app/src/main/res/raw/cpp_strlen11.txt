@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+#include<string.h>
+#include<stdio.h>
+void main()
+{
+	clrscr();
+	char str[20], l;
+	cout<<"Enter any string:";
+	gets(str);
+	l=strlen(str);
+	cout<<"Length of the string is "<<l;
+	getch();
+}

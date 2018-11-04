@@ -1,0 +1,22 @@
+public class ConstructorSample {
+
+   int age;
+   String name;
+	
+   ConstructorSample(){
+	this.name="John";
+	this.age=25;
+   }
+	
+   ConstructorSample(String n,int a){
+	this.name=n;
+	this.age=a;
+   }
+   public static void main(String args[]){
+	ConstructorSample obj1 = new ConstructorSample();
+	ConstructorSample obj2 = 
+		       new ConstructorSample("Mark", 36);
+	System.out.println(obj1.name+" "+obj1.age);
+	System.out.println(obj2.name+" "+obj2.age);
+   }
+}

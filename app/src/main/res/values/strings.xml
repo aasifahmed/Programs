@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Programs</string>
+    <string name="appname">Programs - C, C++, Java, HTML &amp; CSS, JavaScript, PHP, Python, Bash Commands. </string>
+    <string name="action_about">About</string>
+    <string name="action_share">Share</string>
+    <string name="version">Version : 3.1</string>
+    <string name="link">www.etrendz.in</string>
+    <string name="java">Java</string>
+    <string name="java_program">Learn Java Programs</string>
+    <string name="javascript">JavaScript</string>
+    <string name="js_prog">Learn JavaScript Programs</string>
+    <string name="html_css">HTML &amp; CSS</string>
+    <string name="html_css_prog">Learn HTML &amp; CSS Programs</string>
+    <string name="php">PHP</string>
+    <string name="php_prog">Learn PHP Programs</string>
+    <string name="c">Programming in C</string>
+    <string name="c_prg">Learn C Programs</string>
+    <string name="cpp">C++</string>
+    <string name="cpp_prog">Learn C++ Programs</string>
+    <string name="bash">Bash Shell</string>
+    <string name="bash_prog">Learn Linux Shell Programs</string>
+    <string name="python">Python</string>
+    <string name="python_prog">Learn Python Programs</string>
+    <string name="admob_app_id">ca-app-pub-7625941323660469~6345529072</string>
+    <string name="banner_home_footer">ca-app-pub-7625941323660469/9869485898</string>
+    <string-array name="link">
+        <item>https://twitter.com/aasifahmed97</item>
+        <item>https://play.google.com/store/apps/details?id=ahmed.aasif.programs</item>
+    </string-array>
+</resources>

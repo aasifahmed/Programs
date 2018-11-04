@@ -1,0 +1,6 @@
+days=20
+user="Michel"
+echo "$user visited $days days ago"
+days=15
+user="Amanda"
+echo "$user visited $days days ago"

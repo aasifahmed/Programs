@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>Time Table:</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>Time</td>
+				<td>Monday</td>
+				<td>Tuesday</td>
+				<td>Wednesday</td>
+				<td>Thursday</td>
+				<td>Friday</td>
+				<td>Saturday</td>
+			</tr>
+				<tr>
+				<td>10:00-11:00</td>
+				<td>English</td>
+				<td>Physics</td>
+				<td>Chenistry</td>
+				<td>Maths</td>
+				<td>Computer Lab</td>
+				<td>Physics Lab</td>
+			</tr>
+				<tr>
+				<td>11:00-12:00</td>
+				<td>Chenistry</td>
+				<td>English</td>
+				<td>Maths</td>
+				<td>Computer Lab</td>
+				<td>Physics</td>
+				<td>Chemistry Lab</td>
+			</tr>
+				<tr>
+				<td>12:00-01:00</td>
+				<td>Physics</td>
+				<td>English</td>
+				<td>Maths</td>
+				<td>Soft Skill</td>
+				<td>Chenistry</td>
+				<td>Computer Lab</td>
+			</tr>
+				<tr>
+				<td>02:00-03:00</td>
+				<td>English</td>
+				<td>Physics</td>
+				<td>Maths</td>
+				<td>Physics Lab</td>
+				<td>Chenistry</td>
+				<td>Computer Lab</td>
+			</tr>
+				<tr>
+				<td>02:00-03:00</td>
+				<td>Maths</td>
+				<td>English</td>
+				<td>Chenistry</td>
+				<td>Physics</td>
+				<td>Physics Lab</td>
+				<td>Commnunication Skill</td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+

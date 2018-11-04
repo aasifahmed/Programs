@@ -1,0 +1,14 @@
+<html>
+<body>
+	<h1>
+	<script type="text/javascript">
+		var a=125;
+		var b=238;
+		if(a>b)
+		document.write("A is greater than B");
+	else
+		document.write("B is greater than A");
+	</script>
+	</h1>
+</body>
+</html>

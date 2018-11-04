@@ -1,0 +1,12 @@
+echo "To print the first N odd numbers:"
+echo "Enter the number?"
+read n
+i=1
+j=1
+while [ $j -le $n ]
+do
+echo $i
+i=`expr $i + 2`
+j=`expr $j + 1`
+done
+

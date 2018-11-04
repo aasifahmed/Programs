@@ -1,0 +1,16 @@
+#include<iostream.h>
+#include<conio.h>
+#include<string.h>
+#include<stdio.h>
+void main()
+{
+	clrscr();
+	char str1[50], str2[50];
+	cout<<"Enter first string : ";
+	gets(str1);
+	cout<<"Enter second string : ";
+	gets(str2);
+	strcat(str1, str2);
+	cout<<"String after concatenation is "<<str1;
+	getch();
+}

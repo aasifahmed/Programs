@@ -1,0 +1,15 @@
+<html>
+	<body>
+		<h1>
+			<script type="text/javascript">
+				var a=8;
+				var b=2;
+				document.write("<h1>"+a+"+"+b+"="+(a+b)+"</h1>");
+				document.write("<h1>"+a+"-"+b+"="+(a-b)+"</h1>");
+				document.write("<h1>"+a+"*"+b+"="+(a*b)+"</h1>");
+				document.write("<h1>"+a+"/"+b+"="+(a/b)+"</h1>");
+			</script>
+		</h1>
+	</body>
+</html>
+

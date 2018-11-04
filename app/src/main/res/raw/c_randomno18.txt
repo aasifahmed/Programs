@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() 
+{
+        int a, no;
+        printf("Five random numbers between 1 and 10000\n");
+        for (a = 1; a <= 5; a++) 
+        {
+             no = rand()%10000 + 1;
+             printf("%d\n", no);
+        }
+        return 0;
+}

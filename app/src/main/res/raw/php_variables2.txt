@@ -1,0 +1,15 @@
+<html>
+<body>
+<?php
+$txt = "Hello world!";
+$num = 148754943;
+$colors = array("Red", "Green", "Blue");
+echo $txt;
+echo $num;
+echo "<br>";
+echo $color[0];
+echo $color[1];
+echo $color[2];
+?>
+</body>
+</html>

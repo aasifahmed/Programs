@@ -1,0 +1,10 @@
+echo "enter the number"
+read n
+i=1
+fact=$i
+while [$n -ge 1]
+do
+fact=`echo $i \* $n|bc`
+let num--
+done
+echo "factorial of $fact is $i"

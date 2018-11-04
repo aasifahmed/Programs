@@ -1,0 +1,9 @@
+<?php  
+$number = 5;  
+$fact = 1;  
+for ($i=$number; $i>=1; $i--)   
+{  
+  $fact = $fact * $i;
+}  
+echo "Factorial of $number is $fact";  
+?>  

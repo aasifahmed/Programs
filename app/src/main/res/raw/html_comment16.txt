@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+   <head>  
+      <title>Html Comments</title>
+   </head> 
+	
+   <body>
+      <!--   This is a single line comment -->
+      <!-- 
+         <p>This is a multiline comment and it can
+         span through as many lines as you like.</p>
+      -->
+      
+      <p>Document content goes here.....</p>
+   </body>
+	
+</html>
+
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Meta Tags Example</title>
+      <meta name = "keywords" content = "HTML, Css, JavaScript, PHP" />
+      <meta name = "description" content = "Learn HTML, JavaScript, PHP, Java, Linux Bash Commands." />
+      <meta name = "revised" content = "Programs, 31/01/2018" />
+      <meta name = "author" content = "Aasif Ahmed" />
+      <meta http-equiv = "cookie" content = "userid = aasif;
+         expires = Monday, 31-Dec-18 23:59:59 GMT;" />
+         
+   </head>
+	
+   <body>
+      <p>Hello HTML!</p>
+   </body>
+	
+</html>
+
+

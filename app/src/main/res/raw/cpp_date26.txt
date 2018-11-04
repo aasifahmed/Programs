@@ -1,0 +1,11 @@
+#include<iostream.h>
+#include<conio.h>
+#include<ctime.h>
+void main()
+{
+	clrscr();
+	time_t now = time(0);
+	struct tm *ltm = localtime(&now);
+	cout<<"Current system date is "<<ltm->tm_mday<<"/"<<1 + ltm->tm_mon<<"/"<<1900 + ltm->tm_year;
+	getch();
+}

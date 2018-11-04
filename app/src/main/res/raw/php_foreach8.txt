@@ -1,0 +1,11 @@
+<html>
+	<body>
+		<?php
+		$arr = array(1,2,3,4,5);
+		foreach($arr as $value)
+		{
+			echo "The value is $value";
+		}
+		?>
+	</body>
+</html>

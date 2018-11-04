@@ -1,0 +1,179 @@
+<?xml version="1.1" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ahmed.aasif.programs">
+
+    <application
+        android:fullBackupContent="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+
+                <!--<data-->
+                    <!--android:scheme="http"-->
+                    <!--android:host="www.etrendz.in"-->
+                    <!--android:pathPrefix="/index/"/>-->
+            </intent-filter>
+        </activity>
+        <activity android:name=".JavaPrograms"
+            android:label="@string/java"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.MainActivity" />
+        </activity>
+        <activity android:name=".JavaCode"
+            android:label="@string/java"
+            android:parentActivityName=".JavaPrograms"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.JavaPrograms" />
+        </activity>
+        <activity android:name=".HtmlPrograms"
+            android:label="@string/html_css"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.MainActivity" />
+        </activity>
+        <activity android:name=".HtmlCode"
+            android:label="@string/html_css"
+            android:parentActivityName=".HtmlPrograms"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.HtmlPrograms" />
+        </activity>
+        <activity android:name=".JSPrograms"
+            android:label="@string/javascript"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.MainActivity" />
+        </activity>
+        <activity android:name=".JSCode"
+            android:label="@string/javascript"
+            android:parentActivityName=".JSPrograms"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.JSPrograms" />
+        </activity>
+        <activity android:name=".BashPrograms"
+            android:label="@string/bash"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.MainActivity" />
+        </activity>
+        <activity android:name=".BashCode"
+            android:label="@string/bash"
+            android:parentActivityName=".BashPrograms"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.BashPrograms" />
+        </activity>
+        <activity android:name=".PhpPrograms"
+            android:label="@string/php"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.MainActivity" />
+        </activity>
+        <activity android:name=".PhpCode"
+            android:label="@string/php"
+            android:parentActivityName=".PhpPrograms"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.PhpPrograms" />
+        </activity>
+        <activity android:name=".AboutActivity"
+            android:label="@string/action_about"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="www.etrendz.in"
+                    android:pathPrefix="/index/"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.MainActivity" />
+        </activity>
+        <activity android:name=".CPrograms"
+            android:label="@string/c"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.MainActivity" />
+        </activity>
+        <activity android:name=".CCode"
+            android:label="@string/c"
+            android:parentActivityName=".CPrograms"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.CPrograms" />
+        </activity>
+        <activity android:name=".CppPrograms"
+            android:label="@string/cpp"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.MainActivity" />
+        </activity>
+        <activity android:name=".CppCode"
+            android:label="@string/cpp"
+            android:parentActivityName=".CppPrograms"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.CppPrograms" />
+        </activity>
+        <activity android:name=".PythonPrograms"
+            android:label="@string/cpp"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.MainActivity" />
+        </activity>
+        <activity android:name=".PythonCode"
+            android:label="@string/cpp"
+            android:parentActivityName=".PythonPrograms"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.PythonPrograms" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="#">
+	<p>Choose your languages: (Checkbox Example)</p>
+<p>
+	English: <input type="checkbox" name="languages" value="english" checked="yes" /><br />
+	Spanish: <input type="checkbox" name="languages" value="spanish" /><br />
+	Arabic: <input type="checkbox" name="languages" value="arabic" /><br />
+	Chinese: <input type="checkbox" name="languages" value="chinese" />
+</p>
+<p>Choose gender: (Radio button Example)</p>
+<p>
+	Male: <input type="radio" name="male" /><br />
+	Female: <input type="radio" name="female" />
+</p>
+<p>Password field:</p>
+<input type="password" size="20" maxlength="20" />
+</form>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+echo "Enter a number?"
+read a
+z=`expr $a % 2`
+if [ $z -eq 0 ]
+then
+echo "Even"
+else
+echo "Odd"
+fi
+

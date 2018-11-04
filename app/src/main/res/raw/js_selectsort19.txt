@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Selection Sort:</title>
+	</head>
+	<body>
+		<script language="javascript">
+			function select_sort(arr) {
+				var l = arr.length;
+				for(var i=0;i<l-1;i++) {
+					var k=i;
+					for(var j=i+1;j<l;j++) {
+						if(arr[j] < arr[k]) {
+							k=j;
+						}
+					}
+					if(k!=i) {
+						var tmp=arr[i];
+						arr[i]=arr[k];
+						arr[k]=tmp;
+					}
+				}
+				return arr;
+	}
+	var input_arr = [9,32,0,-3,13,-5,8,3];
+	document.write("Array before Selection sort: " + input_arr);
+	var sorted_arr = select_sort(input_arr);
+	document.write("Array after Selection sort: "+ sorted_arr);
+		</script>
+	</body>
+</html>
+
+

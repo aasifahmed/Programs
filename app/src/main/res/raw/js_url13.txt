@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>Get URL of current page:</title>
+	</head>
+	<body>
+		<script language="javascript">
+		var d = alert(document.URL);
+		document.write("",+d);
+		</script>
+	</body>
+</html>

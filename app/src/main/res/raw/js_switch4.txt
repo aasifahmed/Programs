@@ -1,0 +1,18 @@
+<html>
+<body>
+	<script type="text/javascript">
+		var cat="Scifi";
+		switch(cat)
+		{
+			case "Action": movie="fast & furious";
+			break;
+			case "Scifi": movie="Avatar";
+			break;
+			case "Romance": movie="Titanic";
+			break;
+			default: movie="Avengers";
+		}
+		document.write("<h1> Category= "+cat+"Movie= "+movie+"</h1>");
+	</script>
+</body>
+</html>

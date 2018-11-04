@@ -1,0 +1,15 @@
+<?php  
+$no = 0;  
+$num1 = 0;  
+$num2 = 1;  
+echo "<h3>Fibonacci series for first 12 numbers: </h3>";  
+echo "\n";  
+echo $num1.' '.$num2.' ';  
+while ($no < 10 )  
+{  
+    $num3 = $num2 + $num1;  
+    echo $num3.' ';  
+    $num1 = $num2;  
+    $num2 = $num3;  
+    $no = $no + 1;  
+?>  

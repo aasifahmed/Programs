@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main()
+{
+const int height = 200;
+const float number = 2.14;
+const char letter = 'G';
+const char letter_sequence[10] = "XYZ";
+printf("value of height :%d \n", height );
+printf("value of number : %f \n", number );
+printf("value of letter : %c \n", letter );
+printf("value of letter_sequence : %s \n", letter_sequence);
+}

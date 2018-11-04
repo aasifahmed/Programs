@@ -1,0 +1,9 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	const int i=10;
+	cout<<"Constant integer value is "<<i;
+	getch();
+}

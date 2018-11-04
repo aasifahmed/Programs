@@ -1,0 +1,35 @@
+echo "Enter no. of elements in the array?"
+read n
+echo "Enter the elements one by one?"
+i=0
+while [ $i -lt $n ]
+do
+read array[$i]
+let i++
+done
+len=${#array[*]}
+echo "The array has $len elements. They are"
+i=0
+while [ $i -lt $len ]
+do
+echo "$i:${array[$i]}"
+let i++
+done
+i=0
+j=1
+min=${array[$i]}
+max=${array[$i]}
+while [ $j -lt $len ]
+do
+sec=${array[$j]}
+if[ $min -gt $sec ]
+then
+min=$sec
+elif[ $max -lt $sec ]
+then
+max=$sec
+fi
+let j++
+done
+echo "Maximum=$max"
+echo "Minimum=$min"

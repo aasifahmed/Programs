@@ -1,0 +1,19 @@
+<?php  
+$no=471;  
+$amt=0;  
+$i=$no;  
+while($i!=0)  
+{  
+$asf=$i%10;  
+$amt=$amt+$asf*$asf*$asf;  
+$i=$i/10;  
+}  
+if($no==$amt)  
+{  
+echo "It is an Armstrong number";  
+}  
+else  
+{  
+echo "It is not an armstrong number";  
+}  
+?>

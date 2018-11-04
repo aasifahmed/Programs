@@ -1,0 +1,14 @@
+<html>
+<body>
+	<script type="text/javascript">
+		var userId;
+		var password;
+		userId = prompt("Enter user ID?", " ");
+		password = prompt("Enter password?", " ");
+		if (userId == "user" && password == "admin")
+			alert("Login successful");
+		else
+			alert("Login unsuccessful");
+	</script>
+</body>
+</html>

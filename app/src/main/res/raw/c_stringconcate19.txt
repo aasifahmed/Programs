@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+   char i[1000], j[1000];
+   printf("Enter the first string\n");
+   gets(i);
+   printf("Enter the second string\n");
+   gets(j);
+   strcat(i,j);
+   printf("String after concatenation is %s\n",i);
+   return 0;
+}

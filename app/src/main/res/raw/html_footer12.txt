@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<footer>
+  <p>Developed by: Aasif Ahmed</p>
+  <p>Contact information: <a href="mailto:person@example.com">person@example.com</a>.</p>
+</footer>
+
+<p><strong>Note:</strong> The footer tag defines the footer of a document such as copyright, contact details, sitemap etc.</p>
+
+</body>
+</html>

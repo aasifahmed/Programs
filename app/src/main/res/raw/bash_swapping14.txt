@@ -1,0 +1,12 @@
+echo "Swapping two numbers using variables:"
+echo "Enter a"
+read a
+echo "Enter b"
+read b
+c=$a
+a=$b
+b=$c
+echo "After swapping:"
+echo "$a"
+echo "$b"
+
