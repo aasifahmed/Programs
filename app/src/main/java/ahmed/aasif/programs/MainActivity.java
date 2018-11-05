@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
                 new CardModel(R.drawable.js, R.string.javascript, R.string.js_prog),
                 new CardModel(R.drawable.php, R.string.php, R.string.php_prog),
                 new CardModel(R.drawable.linux, R.string.bash, R.string.bash_prog),
-                new CardModel(R.drawable.python, R.string.python, R.string.python_prog));
+                new CardModel(R.drawable.python, R.string.python, R.string.python_prog),
+                new CardModel(R.drawable.ruby, R.string.ruby, R.string.ruby_prog));
         lvCards.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
@@ -66,6 +67,10 @@ public class MainActivity extends AppCompatActivity {
                     Intent python = new Intent(getApplicationContext(), PythonPrograms.class);
                     startActivity(python);
                 }
+                else if (position == 8) {
+                    Intent ruby = new Intent(getApplicationContext(), Rubyprograms.class);
+                    startActivity(ruby);
+                }
             }
             });
 
@@ -89,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_share) {
             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
-            String shareBodyText = "Learn C, C++, Java, HTML & CSS, JavaScript, PHP, Python, Bash Commands programs in a single app. Explore 100+ programs and enjoy coding! Download it from https://play.google.com/store/apps/details?id=ahmed.aasif.programs";
+            String shareBodyText = "Learn C, C++, Java, HTML & CSS, JavaScript, PHP, Python, Ruby, Bash Commands programs in a single app. Explore 100+ programs and enjoy coding! Download it from https://play.google.com/store/apps/details?id=ahmed.aasif.programs";
             sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,"Programs");
             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
             startActivity(Intent.createChooser(sharingIntent, "Select to Share!"));

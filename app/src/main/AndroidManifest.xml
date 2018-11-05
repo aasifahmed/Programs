@@ -159,7 +159,7 @@
                 android:value="ahmed.aasif.programs.CppPrograms" />
         </activity>
         <activity android:name=".PythonPrograms"
-            android:label="@string/cpp"
+            android:label="@string/python"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme">
             <meta-data
@@ -167,12 +167,28 @@
                 android:value="ahmed.aasif.programs.MainActivity" />
         </activity>
         <activity android:name=".PythonCode"
-            android:label="@string/cpp"
+            android:label="@string/python"
             android:parentActivityName=".PythonPrograms"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ahmed.aasif.programs.PythonPrograms" />
+        </activity>
+        <activity android:name=".Rubyprograms"
+            android:label="@string/ruby"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.MainActivity" />
+        </activity>
+        <activity android:name=".RubyCode"
+            android:label="@string/ruby"
+            android:parentActivityName=".Rubyprograms"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ahmed.aasif.programs.Rubyprograms" />
         </activity>
     </application>
 

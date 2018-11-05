@@ -38,8 +38,8 @@ public class AboutActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        TextView textView = (TextView) findViewById(R.id.link);
-        textView.setText("www.etrendz.in");
-        Linkify.addLinks(textView, Linkify.WEB_URLS);
+//        TextView textView = (TextView) findViewById(R.id.link);
+//        textView.setText("www.etrendz.in");
+//        Linkify.addLinks(textView, Linkify.WEB_URLS);
     }
 }
